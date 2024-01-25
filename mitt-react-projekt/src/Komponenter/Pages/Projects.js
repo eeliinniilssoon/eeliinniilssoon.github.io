@@ -1,9 +1,17 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import Moodyforest from "../../Images/Moodyforest.jpg";
-import LandingpageopenImage from "../../Images/Landingpageopen.png";
+import LandingpageopenImage from "../../Images/vårdappen1.png";
+import Coolfashion1 from "../../Images/CoolFashion1.png";
+import Skvaller1 from "../../Images/Skvaller1.png";
+import Tentamenbloggen1 from "../../Images/Tentamenbloggen1.png";
+import Todo1 from "../../Images/Todo1.png";
+import StädafintAB1 from "../../Images/StädafintAB1.png";
+import FriendlycornerJkpg from "../../Images/FriendlyCornerJkpg.png"
+import Vidici1 from "../../Images/Vidici1.png"
+/* import FriendlycornerJkpg from "../../Images/FriendlycornerJkpg.png"
+ */
 import { Paper, Typography, Divider, Grid } from "@mui/material";
-import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
 import IconButton from "@mui/material/IconButton";
@@ -16,24 +24,39 @@ const itemData = [
     link: "/Halsoappen",
   },
   {
-    img: "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c",
+    img: StädafintAB1,
     title: "StädaFint AB - En företagshemsida",
+    link: "/Stadafint",
   },
   {
-    img: "https://images.unsplash.com/photo-1533827432537-70133748f5c8",
+    img: Coolfashion1,
     title: "Coolfashion - En klädaffär online",
+    link: "/Coolfashion",
   },
   {
-    img: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62",
+    img: Skvaller1,
     title: "Skvaller - En nyhetstidning online",
+    link: "/Skvaller",
   },
   {
-    img: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
+    img: Tentamenbloggen1,
     title: "Tentamenbloggen - Din blogg på nätet",
+    link: "/Tentamenbloggen",
   },
   {
-    img: "https://images.unsplash.com/photo-1522770179533-24471fcdba45",
+    img: Todo1,
     title: "ToDo - En simpel att göra lista",
+    link: "/Todo",
+  },
+  {
+    img: FriendlycornerJkpg,
+    title: "Friendly Corner - Ett coworkingspace i Jönköping",
+    link: "/Friendlycorner",
+  },
+  {
+    img: Vidici1,
+    title: "Vidici - En onlineaffär",
+    link: "/Vidici",
   },
 ];
 
