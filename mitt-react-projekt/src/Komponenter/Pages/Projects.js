@@ -9,8 +9,6 @@ import Todo1 from "../../Images/Todo1.png";
 import StädafintAB1 from "../../Images/StädafintAB1.png";
 import FriendlycornerJkpg from "../../Images/FriendlyCornerJkpg.png"
 import Vidici1 from "../../Images/Vidici1.png"
-/* import FriendlycornerJkpg from "../../Images/FriendlycornerJkpg.png"
- */
 import { Paper, Typography, Divider, Grid } from "@mui/material";
 import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
