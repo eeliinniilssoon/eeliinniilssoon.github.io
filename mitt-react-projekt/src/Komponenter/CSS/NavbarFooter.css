@@ -3,16 +3,16 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #191B1D;
-    color: #fff;
-    padding: 20px 40px;
+    padding: 10px 40px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: 300;
   }
 
   #Home{
     text-decoration: none;
-  }
-  
-  h2 {
-    font-size: 24px;
   }
   
   a {

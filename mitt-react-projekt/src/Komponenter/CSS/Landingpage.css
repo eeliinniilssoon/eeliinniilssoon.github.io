@@ -1,0 +1,32 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.95;
+  }
+}
+
+h1 {
+  color: white;
+}
+
+@keyframes swishLeft {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes swishRight {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 50%;
+    transform: translateX(50%);
+  }
+}

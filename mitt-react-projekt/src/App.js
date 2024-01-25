@@ -6,7 +6,6 @@ import Landingpage from './Komponenter/Pages/Landingpage';
 import AboutMe from './Komponenter/Pages/AboutMe';
 import Projects from './Komponenter/Pages/Projects';
 import CV from './Komponenter/Pages/CV';
-import Footer from './Komponenter/Footer';
 import Halsoappen from './Komponenter/Pages/ProjectMap/Halsoappen';
 
 
@@ -23,7 +22,6 @@ function App() {
           <Route path="/Portfolio" element={<Projects/>} />
           <Route path="/Halsoappen" element={<Halsoappen/>} />
         </Routes>
-      <Footer/>
     </BrowserRouter>
    </> 
   );

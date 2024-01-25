@@ -244,11 +244,11 @@ const CV = () => {
             }}
           >
             <ListItemText primary="Html och css" />
-            <ListItemText primary="JavaScript och TypeScript" />
-            <ListItemText primary="Angular" />
-            <ListItemText primary="React" />
-            <ListItemText primary="Firebase" />
+            <ListItemText primary="JavaScript, TypeScript och basic C#" />
+            <ListItemText primary="Angular och React" />
+            <ListItemText primary="Sanity, basic WIX och basic Wordpress" />
             <ListItemText primary="UX och UI" />
+            <ListItemText primary="Tailwind och Material UI" />
           </ListItem>
         </Paper>
 
@@ -277,6 +277,7 @@ const CV = () => {
           >
             <ListItemText primary="B-körkort" />
             <ListItemText primary="Truckkort A2, A4, B1" />
+            <ListItemText primary="Evig förlorade i alla bollsporter t.ex pingis" />
           </ListItem>
         </Paper>
       </Paper>

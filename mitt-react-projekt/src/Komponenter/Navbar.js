@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className={styles.links}>
       <Link id='Home' to="/"> 
-        <h2>Elin Nilsson</h2>
+        <h1>Elin Nilsson</h1>
       </Link>
       <div>
         <Link to="/Portfolio">Min Portfolie</Link>
