@@ -171,7 +171,7 @@ const AboutMe = () => {
               av er till mig via någon av sätten här ovan!
             </Typography>
             <Typography sx={{ padding: "1rem" }}>
-              Jag är tacksam supertacksam för alla tankar och idéer som kan leda
+              Jag är evigt supertacksam för alla tankar och idéer som kan leda
               mig till att hitta mitt framtida DreamTeam!
             </Typography>
           </Paper>
