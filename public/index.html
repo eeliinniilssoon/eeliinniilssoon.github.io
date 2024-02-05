@@ -9,14 +9,12 @@
     <h1>Laddar sidan...</h1>
     <div id="root"></div>
 
-    <!-- Inkludera React-bundeln -->
-    <script src="static/js/main.e4d55525.js"></script>
 
     <!-- Ditt script kan nu använda komponenter som är definierade i din React-app -->
     <script>
       // Exempel på hur du kan använda din React-app i ditt script
       var root = document.getElementById('root');
-      ReactDOM.createRoot(root).render(<App />);
+      ReactDOM.createRoot(root).render(React.createElement(App));
     </script>
   </body>
 </html>
