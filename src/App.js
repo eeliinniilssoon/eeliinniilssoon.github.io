@@ -1,5 +1,3 @@
-
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './Komponenter/Navbar';
 import Landingpage from './Komponenter/Pages/Landingpage';
