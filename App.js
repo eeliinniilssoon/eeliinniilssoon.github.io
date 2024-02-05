@@ -1,19 +1,19 @@
 
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './Komponenter/Navbar';
-import Landingpage from './Komponenter/Pages/Landingpage';
-import AboutMe from './Komponenter/Pages/AboutMe';
-import Projects from './Komponenter/Pages/Projects';
-import CV from './Komponenter/Pages/CV';
-import Halsoappen from './Komponenter/Pages/ProjectMap/Halsoappen';
-import Coolfashion from './Komponenter/Pages/ProjectMap/Coolfashion';
-import Friendlycorner from './Komponenter/Pages/ProjectMap/Friendlycorner';
-import Skvaller from './Komponenter/Pages/ProjectMap/Skvaller';
-import Stadafint from './Komponenter/Pages/ProjectMap/Stadafint';
-import Tentamenbloggen from './Komponenter/Pages/ProjectMap/Tentamenbloggen';
-import Todo from './Komponenter/Pages/ProjectMap/Todo';
-import Vidici from './Komponenter/Pages/ProjectMap/Vidici';
+import Navbar from './src/Komponenter/Navbar';
+import Landingpage from './src/Komponenter/Pages/Landingpage';
+import AboutMe from './src/Komponenter/Pages/AboutMe';
+import Projects from './src/Komponenter/Pages/Projects';
+import CV from './src/Komponenter/Pages/CV';
+import Halsoappen from './src/Komponenter/Pages/ProjectMap/Halsoappen';
+import Coolfashion from './src/Komponenter/Pages/ProjectMap/Coolfashion';
+import Friendlycorner from './src/Komponenter/Pages/ProjectMap/Friendlycorner';
+import Skvaller from './src/Komponenter/Pages/ProjectMap/Skvaller';
+import Stadafint from './src/Komponenter/Pages/ProjectMap/Stadafint';
+import Tentamenbloggen from './src/Komponenter/Pages/ProjectMap/Tentamenbloggen';
+import Todo from './src/Komponenter/Pages/ProjectMap/Todo';
+import Vidici from './src/Komponenter/Pages/ProjectMap/Vidici';
 
 
 function App() {
