@@ -13,7 +13,6 @@ import Vidici1 from "../Images/Vidici1.png";
 import IconButton from "@mui/material/IconButton";
 import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
-import React from "react";
 import Coolfashion1 from "../Images/CoolFashion1.png";
 import InfoIcon from '@mui/icons-material/Info';
 

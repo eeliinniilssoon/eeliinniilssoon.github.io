@@ -25,7 +25,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "npm run clean && npm run build && gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "clean": "rimraf node_modules",
     "build": "react-scripts build",
     "test": "react-scripts test",
