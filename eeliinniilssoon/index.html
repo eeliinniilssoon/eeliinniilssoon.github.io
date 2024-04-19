@@ -1,7 +1,17 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Elin Nilsson</title>
+  </head>
+  <body>
+    <h1>Laddar sidan...</h1>
+    <div id="root"></div>
+
+    <script>
+      var root = document.getElementById('root');
+      ReactDOM.createRoot(root).render(React.createElement(App));
+    </script>
+  </body>
 </html>
