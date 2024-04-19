@@ -1,0 +1,124 @@
+nav {
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  background-color: transparent;
+}
+
+/* Darkmode toggle button */
+label {
+  width: 90px;
+  height: 30px;
+  position: relative;
+  display: block;
+  background: #ebebeb;
+  border-radius: 80px;
+  box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4),
+    inset 0px -5px 15px rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  top: -10px;
+  left: 40px;
+}
+
+label:after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: linear-gradient(180deg, #ffcc89, #d8860b);
+  border-radius: 80px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+input {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+input:checked + label {
+  background: #242424;
+}
+input:checked + label:after {
+  left: 90px;
+  transform: translateX(-100%);
+  background: linear-gradient(180deg, #777, #3a3a3a);
+}
+label,
+label:after {
+  transition: 0.3s;
+}
+
+label:active:after {
+  width: 20px;
+}
+
+label svg {
+  position: absolute;
+  width: 25px;
+  top: 2.5px;
+  z-index: 100;
+}
+label svg.sun {
+  left: 2px;
+  fill: #fff;
+  transition: 0.3s;
+}
+label svg.moon {
+  left: 63px;
+  fill: #7e7e7e;
+  transition: 0.3s;
+}
+input:checked + label svg.sun {
+  fill: #7e7e7e;
+}
+input:checked + label svg.moon {
+  fill: #fff;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Light mode link styles */
+.links a.lightLink {
+  color: #000;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.links a.lightLink:hover {
+  text-decoration: underline;
+}
+
+/* Dark mode link styles */
+nav.links a.darkLink {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav.links a.darkLink:hover {
+  text-decoration: underline;
+}
+
+.LogoImg {
+  width: 150px;
+  margin-left: 30vw; /* Fixa så loggan är centrerad */
+}
