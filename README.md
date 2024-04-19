@@ -1,4 +1,3 @@
-# eeliinniilssoon.github.io
 
 Hallå där! Kul att ni kunde kika in! 
 
