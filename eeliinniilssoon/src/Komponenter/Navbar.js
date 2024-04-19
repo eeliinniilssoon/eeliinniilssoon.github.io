@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import { Link } from "react-router-dom";
 import { useDarkMode } from "../DarkModeContext";
 import styles from "./CSS/Navbar.css";
