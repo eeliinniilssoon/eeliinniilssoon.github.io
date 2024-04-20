@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ea2d050.css",
+    "main.js": "/static/js/main.13f531f3.js",
+    "static/js/453.3d4686b1.chunk.js": "/static/js/453.3d4686b1.chunk.js",
+    "static/media/Todo1.png": "/static/media/Todo1.687919f7935ffa2e940b.png",
+    "static/media/FriendlyCornerJkpg.png": "/static/media/FriendlyCornerJkpg.c545fac07f281f796d6f.png",
+    "static/media/Vidici1.png": "/static/media/Vidici1.cf370dd42e091d4c8fbc.png",
+    "static/media/StädafintAB1.png": "/static/media/StädafintAB1.b44db972bcdfa786e9fa.png",
+    "static/media/CoolFashion1.png": "/static/media/CoolFashion1.3f8ec9f852d8a0a7f3ea.png",
+    "static/media/Tentamenbloggen1.png": "/static/media/Tentamenbloggen1.dfc5b9c8e38b667c9694.png",
+    "static/media/Skvaller1.png": "/static/media/Skvaller1.92cc747d607a934a91e7.png",
+    "static/media/20180227_124217.png": "/static/media/20180227_124217.89d3c828833c96e5e04e.png",
+    "static/media/ProfilePic.png": "/static/media/ProfilePic.67cef15d1541872cbc80.png",
+    "static/media/vårdappen1.png": "/static/media/vårdappen1.fd6e36679295053e220a.png",
+    "static/media/2.jpg": "/static/media/2.cf17a3fa60cc42c9bb9c.jpg",
+    "static/media/1.jpg": "/static/media/1.f83c28c030b052ad97cd.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.0ea2d050.css.map": "/static/css/main.0ea2d050.css.map",
+    "main.13f531f3.js.map": "/static/js/main.13f531f3.js.map",
+    "453.3d4686b1.chunk.js.map": "/static/js/453.3d4686b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ea2d050.css",
+    "static/js/main.13f531f3.js"
+  ]
+}
