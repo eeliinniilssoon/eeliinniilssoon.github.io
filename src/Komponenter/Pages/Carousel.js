@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import { Box } from "@mui/material";
 import { useDarkMode } from "../../DarkModeContext";
 import Slider from "react-slick";
