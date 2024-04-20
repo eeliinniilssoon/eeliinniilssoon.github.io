@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import { Box } from "@mui/material";
 import { useDarkMode } from "../../DarkModeContext";
 import ProfilePic from "../Images/20180227_124217.png";
