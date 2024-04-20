@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import { Divider, Grid, Paper, Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import { useDarkMode } from "../../DarkModeContext";
