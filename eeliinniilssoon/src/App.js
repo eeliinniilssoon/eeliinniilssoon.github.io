@@ -14,6 +14,7 @@ import Stadafint from './Komponenter/Pages/ProjectMap/Stadafint';
 import Tentamenbloggen from './Komponenter/Pages/ProjectMap/Tentamenbloggen';
 import Todo from './Komponenter/Pages/ProjectMap/Todo';
 import Vidici from './Komponenter/Pages/ProjectMap/Vidici';
+import Blog from './Komponenter/Pages/Blog';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Routes>
         <Route path="" index element={<Landingpage/>} />
           <Route path="/OmMig" element={<AboutMe/>} />
+          <Route path="/Blogg" element={<Blog/>} />
           <Route path="/Portfolio" element={<Projects/>} />
           <Route path="/Coolfashion" element={<Coolfashion/>} />
           <Route path="/Friendlycorner" element={<Friendlycorner/>} />

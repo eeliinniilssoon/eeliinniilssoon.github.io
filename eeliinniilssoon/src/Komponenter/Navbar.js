@@ -11,6 +11,12 @@ const Navbar = () => {
   return (
     <>
       <nav className={`${styles.links} ${styles.transparent}`}>
+      <Link
+          to="/"
+          className={darkMode ? styles.darkLink : styles.lightLink}
+        >
+          Hem
+        </Link>
         <Link
           to="/OmMig"
           className={darkMode ? styles.darkLink : styles.lightLink}
@@ -21,9 +27,14 @@ const Navbar = () => {
           to="/Portfolio"
           className={darkMode ? styles.darkLink : styles.lightLink}
         >
-          Portfolie
+          Portfolio
         </Link>
-
+        <Link
+          to="/Blogg"
+          className={darkMode ? styles.darkLink : styles.lightLink}
+        >
+          Blogg
+        </Link>
         <div>
           <input
             type="checkbox"
@@ -100,7 +111,7 @@ const Navbar = () => {
             </svg>
           </label>
         </div>
-        <Link to="/">
+        <Link to="">
           <img
             className="LogoImg"
             src={darkMode ? ElinDark : ElinLight}

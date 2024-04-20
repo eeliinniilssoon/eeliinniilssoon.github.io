@@ -83,7 +83,6 @@ const Projects = () => {
       <Paper
         elevation={4}
         sx={{
-          bgcolor: "#D9D9D9",
           width: "80%",
           minHeight: "60vh",
           padding: "20px",
