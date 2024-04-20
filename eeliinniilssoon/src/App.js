@@ -1,7 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import { DarkModeProvider } from "./DarkModeContext";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import Navbar from './Komponenter/Navbar';
 import Footer from './Komponenter/Footer';
 import Landingpage from './Komponenter/Pages/Landingpage';
@@ -21,7 +20,7 @@ function App() {
   
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
     <DarkModeProvider>
       <Navbar/>
         <Routes>
@@ -39,7 +38,7 @@ function App() {
         </Routes>
       <Footer/>
     </DarkModeProvider>
-    </BrowserRouter>
+    </HashRouter>
    </> 
   );
 }
