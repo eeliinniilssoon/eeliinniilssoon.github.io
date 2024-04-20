@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import { DarkModeProvider } from "./DarkModeContext";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './Komponenter/Navbar';
