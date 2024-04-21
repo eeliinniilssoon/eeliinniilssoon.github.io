@@ -93,11 +93,10 @@ const Projects = () => {
           color: darkMode ? "#fff" : "#000",
         }}
       >
-        <Divider sx={{ width: "100%", bgcolor: "#333", margin: "20px 0" }} />
-
-        <Grid container spacing={2}>
+      
+        <Grid container spacing={3}>
         {itemData.map((item, index) => (
-            <Grid item xs={12} sm={6} md={4} key={item.img}>
+            <Grid item xs={12} md={6} lg={3} key={item.img}>
               <ImageListItem
                 onMouseEnter={() => setHoveredItem(index)}
                 onMouseLeave={() => setHoveredItem(null)}

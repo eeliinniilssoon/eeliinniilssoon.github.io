@@ -1,5 +1,8 @@
 nav {
   position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -134,4 +137,5 @@ a:hover {
 
 .LogoImg {
   width: 150px;
+  margin: 0 auto; /* Centrerar loggan horisontellt */
 }

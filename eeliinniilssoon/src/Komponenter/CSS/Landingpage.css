@@ -1,0 +1,29 @@
+#smallLandingPage {
+    display: none; 
+    padding-top: 40vh;
+  }
+  
+  .tablet-view {
+    display: none;
+  }
+  
+  /* Media query för tablet-vy */
+  @media (max-width: 768px) {
+    #largeLandingPage {
+      display: none;
+    }
+    .tablet-view {
+      display: flex;
+    }
+  }
+  
+  /* Media query för mindre än 768px (mobilvy) */
+  @media (max-width: 768px) {
+    #smallLandingPage {
+      display: flex;
+    }
+    #smallLandingPage > img {
+        padding-bottom: 20px; /* Lägg till padding-bottom för det sista elementet (bilden) */
+      }
+}
+  
