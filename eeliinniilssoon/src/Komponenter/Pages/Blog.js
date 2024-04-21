@@ -2,29 +2,23 @@ import React, { useState, useEffect } from "react";
 import { Box, Typography, Grid, Card, CardContent } from "@mui/material";
 import { useDarkMode } from "../../DarkModeContext";
 import { Link } from "react-router-dom";
-import "firebase/firestore";
-import { getFirestore, collection, getDocs } from "firebase/firestore";
-import { initializeApp } from "firebase/app";
-import { firebaseConfig } from "../../firebaseConfig.js";
-
-// Skapa Firebase-appen med konfigurationen
-const app = initializeApp(firebaseConfig);
+import { fetchBlogPosts, IBlog } from "./BlogApi";
 
 const Blog = () => {
   const { toggleDarkMode, darkMode } = useDarkMode();
   const [blogPosts, setBlogPosts] = useState([]);
 
   useEffect(() => {
-    // Hämta referens till Firestore-databasen
-    const db = getFirestore(app); // Använd din appreferens här
+    const fetchData = async () => {
+      try {
+        const posts = await fetchBlogPosts(); // Anropa fetchBlogPosts-funktionen för att hämta blogginlägg
+        setBlogPosts(posts); // Uppdatera tillståndet med hämtade blogginlägg
+      } catch (error) {
+        console.error("Error fetching blog posts:", error);
+      }
+    };
 
-// Hämta blogginlägg från Firestore-databasen
-const getBlogPosts = async () => {
-    const blogPostsCollection = collection(db, "BlogPosts");
-    const snapshot = await getDocs(blogPostsCollection);
-    const blogPosts = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
-    return blogPosts;
-  };
+    fetchData(); // Anropa funktionen för att hämta data vid montering av komponenten
   }, []);
 
   return (
@@ -61,11 +55,25 @@ const getBlogPosts = async () => {
                 }}
               >
                 <CardContent>
-                  <Typography
-                    variant="h6"
-                    component="h2"
-                    gutterBottom
-                  ></Typography>
+                  {post.image && (
+                    <div style={{ position: "relative", paddingTop: "56.25%" }}>
+                      <img
+                        src={post.image}
+                        alt="Bild"
+                        style={{
+                          position: "absolute",
+                          top: 0,
+                          left: 0,
+                          width: "100%",
+                          height: "100%",
+                          objectFit: "cover",
+                        }}
+                      />
+                    </div>
+                  )}
+                  <Typography variant="h6" component="h2" gutterBottom>
+                    {post.title}
+                  </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"

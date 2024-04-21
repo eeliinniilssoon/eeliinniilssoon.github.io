@@ -89,6 +89,18 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Hamburgermeny */
+.hamburger-menu {
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+/* Navigeringslänkar */
 .links {
   display: flex;
   justify-content: space-between;
@@ -96,29 +108,30 @@ a:hover {
   padding: 10px 20px;
 }
 
-/* Light mode link styles */
-.links a.lightLink {
+@media (max-width: 1024px) {
+  .links {
+    display: none;
+  }
+}
+
+.links.lightLink {
   color: #000;
-  text-decoration: none;
-  margin-left: 20px;
 }
 
-.links a.lightLink:hover {
+.lightLink:hover {
   text-decoration: underline;
 }
 
-/* Dark mode link styles */
-nav.links a.darkLink {
+.links.darkLink {
   color: #fff;
-  text-decoration: none;
-  margin-left: 20px;
 }
 
-nav.links a.darkLink:hover {
+.darkLink:hover {
   text-decoration: underline;
 }
+
+/* LOGGA */
 
 .LogoImg {
   width: 150px;
-  margin-left: 30vw; /* Fixa så loggan är centrerad */
 }

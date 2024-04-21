@@ -15,7 +15,7 @@ import Tentamenbloggen from './Komponenter/Pages/ProjectMap/Tentamenbloggen';
 import Todo from './Komponenter/Pages/ProjectMap/Todo';
 import Vidici from './Komponenter/Pages/ProjectMap/Vidici';
 import Blog from './Komponenter/Pages/Blog';
-
+import BlogPost from './Komponenter/Pages/BlogPost';
 
 function App() {
   
@@ -28,6 +28,7 @@ function App() {
         <Route path="" index element={<Landingpage/>} />
           <Route path="/OmMig" element={<AboutMe/>} />
           <Route path="/Blogg" element={<Blog/>} />
+          <Route path="/blog/:postId" element={<BlogPost/>} />
           <Route path="/Portfolio" element={<Projects/>} />
           <Route path="/Coolfashion" element={<Coolfashion/>} />
           <Route path="/Friendlycorner" element={<Friendlycorner/>} />
